@@ -6,7 +6,9 @@ weight = 0
 +++
 
 
-## Ablauf Veranstaltung
+## Schedule
+
+
 | Date       | Lesson                                   | Presence                     |
 |------------|------------------------------------------|------------------------------|
 | Wed 23 Apr | Introduction, choose your tools          | 9:30-11:00 & 14:00-15:00     |

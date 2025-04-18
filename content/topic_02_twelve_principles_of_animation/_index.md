@@ -51,4 +51,31 @@ Characters and scenes should be interesting and engaging. It’s like charisma f
 
 ## Assignment
 
-Use your Frame-by-Frame animation software of choice. If you don't have one: Use Pencil 2D. 
+### Day 1
+
+Use your Frame-by-Frame animation software of choice. If you don't have one: Use Pencil2D. 
+
+- Choose four out of the twelve principles of animation. For each of these four: 
+- Generate one to two seconds lasting (12 to 24 frames) animations
+- If possible and appropriate: loop the animation
+- Each animation should show the chosen principle isolated from other principles using one or two simple geometric shapes
+
+### Day 2
+
+Use a 3D modeling software (Blender)
+
+- Generate a short 3D animation (5 to 10 seconds)
+- Feature a small number of blob-like objects modeled using the clay-modeling process introduced in Visual II.
+- Do NOT model characters
+- Only animate position, rotation and scale of the objects
+- Choose at most four principles 
+- Make your animation show all of the features within the animation
+- If possible: try to tell a "story"
+
+
+## Resources
+
+- https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation
+
+- [Creative Bloq Post with cube examples for all principles](https://www.creativebloq.com/advice/understand-the-12-principles-of-animation)
+
