@@ -21,4 +21,4 @@ Choose your frame-by-frame animation tool of choice. If you're not familiar with
 
 In the respective tool, get familiar with drawing frame-by-frame. Learn to use Onion-Skinning in your tool and adding and removing strokes at a certain frame.
 
-Toy around with simple animations of 
+Toy around with simple animations of simple geometric shapes to learn how to animate things over time. 
