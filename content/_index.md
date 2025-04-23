@@ -24,7 +24,7 @@ weight = 0
 | Sat 03 May |                                          |                              |
 | Sun 04 May |                                          |                              |
 | Mon 05 May | Non-linear Animations in Blender and Godot | 11:30-13:00                |
-| Tue 06 May | A Char-Controller in Godot               | 9:30-12:00 & 14:00-16:00     |
+| Tue 06 May | A Char-Controller in Godot               | 10:00-12:00 & 14:00-16:00    |
 | Wed 07 May | Creating a complex animation I           | 9:00-11:00                   |
 | Thu 08 May | Creating a complex animation II          | 9:30-12:00                   |
 | Fri 09 May | Creating a complex animation III         | 9:30-12:00                   |
