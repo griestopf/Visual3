@@ -6,25 +6,37 @@ weight = 30
 
 ## Walkcycle Breakdown
 
-1. Contact Position
-One foot contacts the ground with the heel.
+### 1. Contact Position
+
+![Contact Position](./images/wc_01_contact.png)
+
+- The front foot contacts the ground with the heel.
 - The opposite foot is about to leave the ground, toe pushing off.
-- Arms are in their widest swing — opposite arm to the forward leg.
+- Arms are *almost* in their widest swing — opposite arm to the forward leg.
 - This position starts and ends each step.
 
-2. Down Position
+### 2. Down Position
+
+![Down Position](./images/wc_02_down.png)
+
 - Weight shifts fully onto the front foot.
 - The body's center of gravity lowers slightly.
 - Front leg begins to absorb the impact.
 - Arms continue to swing naturally past their midpoint.
 
-3. Passing Position
+### 3. Passing Position
+
+![Passing Position](./images/wc_03_passing.png)
+
 - The rear foot lifts and passes by the planted foot.
 - Legs are closest together, usually crossing at the knees.
 - The torso is at its most centered and balanced.
 - Arms are neutral, halfway through their swing.
 
-4. Up Position
+### 4. Up Position
+
+![Up Position](./images/wc_04_up.png)
+
 - The body lifts slightly as the rear leg pushes off.
 - The front leg begins to stretch forward, preparing to contact.
 - The heel of the rear foot is off the ground.
