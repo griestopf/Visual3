@@ -51,7 +51,7 @@ weight = 30
     - Remove the background
     - Save the images as PNG files with a transparent background
 - Start a new blender 2D animation file.
-- Import the PNG images all at once using `A`dd -> Image -> Mesh Plane
+- Import the PNG images all at once using Add -> Image -> Mesh Plane
 - Arrange the objects in a hierarchy resembling a biped character with a body, a head, arms and legs
 - Animate a simple walk cycle. 
   - Aim at an animation loop of 24 frames 
@@ -59,10 +59,10 @@ weight = 30
   - Build a moving, conveyor-belt-like walking stage with visual cues to the movement. Can be setup easily with a couple of cubes
   - Start with the Contact position
   - Copy the initial contact position to frame 25 (one frame out of the animation loop)
-  - Create a mirrored contact position at frame 12
-  - Create the Passing positions at frames 6 and 18
-  - Create the Down positions at frames 3 and 15
-  - Create the Up positions at frames 9 and 21
+  - Create a mirrored contact position at frame 13
+  - Create the Passing position at frame 7 (mirrored at 19)
+  - Create the Down position at frame 4 (mirrored at 16)
+  - Create the Up position at frame 10 (mirrored at 22)
 
 ## Questions
 
