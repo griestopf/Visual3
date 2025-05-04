@@ -23,18 +23,18 @@ weight = 0
 | Fri 02 May | Mixamo                                   |                              |
 | Sat 03 May |                                          |                              |
 | Sun 04 May |                                          |                              |
-| Mon 05 May | Non-linear Animations in Blender and Godot | 11:30-13:00                |
-| Tue 06 May | A Char-Controller in Godot               | 10:00-12:00 & 14:00-16:00    |
-| Wed 07 May | Creating a complex animation I           | 9:00-11:00                   |
-| Thu 08 May | Creating a complex animation II          | 9:30-12:00                   |
-| Fri 09 May | Creating a complex animation III         | 9:30-12:00                   |
+| Mon 05 May | Game Engine Character Animation          | 11:30-13:00                  |
+| Tue 06 May | Guerilla Guide to Facial Animation       | 10:00-12:00 & 14:00-16:00    |
+| Wed 07 May | Rigify for Animation                     | 9:00-11:00                   |
+| Thu 08 May | Creating a complex animation I           | 9:30-12:00                   |
+| Fri 09 May | Creating a complex animation II          | 9:30-12:00                   |
 | Sat 10 May |                                          |                              |
 | Sun 11 May |                                          |                              |
 | Mon 12 May | STEM 2                                   |                              |
 | Tue 13 May | CODE 3                                   |                              |
-| Wed 14 May | Workshop Concept Art I                  | 9:45-17:15                   |
-| Thu 15 May | Workshop Concept Art II                 | 9:45-17:15                   |
-| Fri 16 May | Workshop Concept Art III                | 9:45-17:15                   |
+| Wed 14 May | Workshop Concept Art I                   | 9:45-17:15                   |
+| Thu 15 May | Workshop Concept Art II                  | 9:45-17:15                   |
+| Fri 16 May | Workshop Concept Art III                 | 9:45-17:15                   |
 
 
 ## Assignment Submissions
@@ -42,10 +42,19 @@ weight = 0
 - Frame-by-Frame-Animation(s) showing four selected principles of animation
 - Key-framed animation with simple 3D objects animated by their position, rotation and scale attributes showing four selected principles of animation in combination
 - Simple Walk Cycle of a biped character made out of cut-out images
-
+- 
 
 
 ## [hfu.li/VIS-III](https://hfu.li/VIS-III)
 
 ![QR-Code](./QR-Code-VIS-III.svg)
 
+<!--
+
+- Godot Setup Character Controller
+- Facial Animation
+- Rigify First steps
+- Rigify for Mixamo
+
+
+-->

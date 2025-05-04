@@ -45,13 +45,17 @@ weight = 40
 - Move the target object and see how the IK chain follows
 - Adjust the "Chain Length" to control the start of the IK chain within the hierarchy
 
-## Import and combine several bone animations from Mixamo
+## Import And Combine Several Bone Animations from Mixamo
 
-## Animation Combining
+Mixamo only supports FBX (various dialects) and Collada (DAE). Use FBX! Collada Export will look ugly in Blender - at least for the 3D Model (Skin).
 
-In Mixamo you copy various animations with the same 3D character. In Blender you want to have all animations either so called "Actions" or as individual NLA tracks on the same Character (Armature):
+In Mixamo you can download various animations with the same 3D character - each as a single file. In Blender you want to have all animations either so called "Actions" or as individual NLA tracks on the same Character (Armature):
 
-### Combine Animations as Actions tracks
+#### Precaution
+
+- All animations are downloaded WITH Skin.
+
+### Combine Animations as Actions Tracks (easier way)
 
 - Import the first mixamo file
 - In the Dope Sheet Editor, select "Action Editor"
@@ -80,6 +84,45 @@ In Mixamo you copy various animations with the same 3D character. In Blender you
   - In the NLA Editor, push down the newly created Action strip on the resulting Armature
   - Rename everything properly (Action, Strip and Clip)
   - Delete the imported Armature and Character Geometry
+
+
+### Combine Mixamo Animations Directly in Godot
+
+This process is meant as an alternative to the Blender-based animation combination processes described above. Even if it appears to be more work, it might be worth practicing this version at least once to gain insight into the way how Godot stores animation data.
+
+- Import the first mixamo (fbx) file
+- Open the "Advanced Import Settings"
+- Select the Skeleton3D object (skull icon)
+- In the properties tab under "Retarget" create a new BoneMap. Edit the BoneMap by clicking on the newly created "BoneMap" entry
+- Create a new "SkeleonProfileHumanoid" Profile. An automatic, text-pattern-matching based assignment of the existing bones to a humanoid 60-something standard bone set is created.
+- Check that most of the bone positions in the image chart are green
+- Select the "mixamo_com" animation take object in the scene tree
+- Enable "SaveToFile" and choose a path to save the animation to.
+- Hit "Reimport" to close the Advanced Import Settings dialog
+- Drag and drop the fbx into a new 3D Scene
+- Right-click on the object and check "Editable Children"
+- Select the "Animation Player"
+- In the Animation Editor, hit "Animation" -> "Manage Animations..."
+- In the "Edit Animation Libraries" Window, Delete the "Global" library and create a new library. Add the first animation that was created during fbx import with the name given in the advanced import settings to the library.
+- Close the Edit Animation Libraries window.
+- In the Animation Editor, select the animation and make it loopable.
+- For each remaining animation fbx:
+   - Import the respective mixamo-fbx containing the animation
+   - Open the "Advanced Import Settings"
+   - Select the Skeleton3D object (skull icon)  
+   - In the properties tab under "Retarget" create a new BoneMap. Edit the BoneMap by clicking on the newly created "BoneMap" entry
+   - Create a new "SkeleonProfileHumanoid" Profile. An automatic, text-pattern-matching based assignment of the existing bones to a humanoid 60-something standard bone set is created.
+   - Check that most of the bone positions in the image chart are green
+   - Select the "mixamo_com" animation take object in the scene tree
+   - Enable "SaveToFile" and choose a path to save the animation to.
+   - Hit "Reimport" to close the Advanced Import Settings dialog
+   - Select the "Animation Player"
+   - In the Animation Editor, hit "Animation" -> "Manage Animations..."
+   - In the "Edit Animation Libraries" Window click on the Folder icon to select the newly generated animation (.res) file found in the specified "SaveToFile" process above
+   - Close the "Edit Animation Libraries" Window
+   - In the Animation Editor, check if the new animation can be selected from the list. If needed, make it loopable
+
+
 
 ## Assignment
 
