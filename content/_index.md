@@ -42,7 +42,7 @@ weight = 0
 - Frame-by-Frame-Animation(s) showing four selected principles of animation
 - Key-framed animation with simple 3D objects animated by their position, rotation and scale attributes showing four selected principles of animation in combination
 - Simple Walk Cycle of a biped character made out of cut-out images
-- 
+- Godot application showing a 3D character controller moving your own character on a test playground with appropriate locomotion animations
 
 
 ## [hfu.li/VIS-III](https://hfu.li/VIS-III)

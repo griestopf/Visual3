@@ -205,7 +205,10 @@ func _physics_process(delta):
 	move_and_slide()
 ```
 
+## Assignment
 
+- Build a character controller around your own "simple" character and put it into a decimeter-grid playground world.
+- Adjust animation speeds to make the walk/run/strafe animations appear to be the source of the locomotion.
 
 ## Resources
 
