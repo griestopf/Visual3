@@ -24,10 +24,10 @@ weight = 0
 | Sat 03 May |                                          |                              |
 | Sun 04 May |                                          |                              |
 | Mon 05 May | Game Engine Character Animation          | 11:30-13:00                  |
-| Tue 06 May | Guerilla Guide to Facial Animation       | 10:00-12:00 & 14:00-16:00    |
-| Wed 07 May | Rigify for Animation                     | 9:00-11:00                   |
-| Thu 08 May | Creating a complex animation I           | 9:30-12:00                   |
-| Fri 09 May | Creating a complex animation II          | 9:30-12:00                   |
+| Tue 06 May | Rigify for Mixamo                        | 10:00-12:00 & 14:00-16:00    |
+| Wed 07 May | Creating a complex animation I           | 9:00-11:00                   |
+| Thu 08 May | Creating a complex animation II          | 14:00-16:00                  |
+| Fri 09 May | Guerilla Guide to Facial Animation       | 9:30-12:00                   |
 | Sat 10 May |                                          |                              |
 | Sun 11 May |                                          |                              |
 | Mon 12 May | STEM 2                                   |                              |
