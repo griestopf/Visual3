@@ -19,7 +19,7 @@ weight = 50
 
 ![01](img/01_add_csg_to_main_scene.png)
 
-CSG stands for "Constructive Solid Geometry". These objects are meant for rapid prototyping a 3D scene environent only! Do not use them in production. They provide a fast way to build simple shapes using boolean operations. In addition, they are already static bodies for Godot's physics simulation.
+CSG stands for "Constructive Solid Geometry". These objects are meant for rapid prototyping a 3D scene environment only! Do not use them in production. They provide a fast way to build simple shapes using boolean operations. In addition, they are already static bodies for Godot's physics simulation.
 
 #### A Simple Playground
 
@@ -57,7 +57,7 @@ Drag the ".glb" file into your main 3D Scene. The Character in its T-Pose should
 
 ![05](img/05_new_inherited_char_scene.png)
 
-Save (using "Savce Scene As...") the newly created scene with a meaningful name, e.g postfixed by "editable.tscn".
+Save (using "Save Scene As...") the newly created scene with a meaningful name, e.g postfixed by "editable.tscn".
 
 In the main scene, remove the just-added glb-character node and add the "...editable" tscn-scene instead.
 
@@ -75,7 +75,7 @@ Add an "AnimationTree" node right under the existing AnimationPlayer node.
 ##### Create Locomotion Script and Wire to Animations
 
 - Change the type of the character scene's root node to "CharacterBody3D"
-- Add a CollsisionShape3D capsule
+- Add a CollisionShape3D capsule
 
 ![08](img/08_make_charbody3D.png)
 
