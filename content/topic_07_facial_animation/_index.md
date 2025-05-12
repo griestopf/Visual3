@@ -87,6 +87,10 @@ For all eight custom properties: Right-click the property and choose "Add to Key
   - As described under lids: Use the distance between pupil and lid to vary expressions. Keep a constant distance while moving the pupils to change the viewing direction without changing the expression
 
 
+## Import Audio and Prepare for Lip Synching
+
+![04](img/04_prepare_audio.png)
+
 ## Assignment
 
 - Choose a short take (10-20 seconds) of spoken or sung language
