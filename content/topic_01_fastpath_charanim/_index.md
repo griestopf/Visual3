@@ -39,7 +39,7 @@ weight = 10
 - For each remaining Mixamo file
   - Import the next Mixamo file - the same model is now twice in the scene. Each model with its own animation
   - Select the Armature that was just imported
-  - Rename the just imported Animation clip (can be done in the Action Editor's headline or in the Outliner). If the animation should be looped (applies to all animations except for the Jump animation): prefix the Animation clip name with "-loop". Godot will recognize this on import and will automatically set the animation to be looped.
+  - Rename the just imported Animation clip (can be done in the Action Editor's headline or in the Outliner). If the animation should be looped (applies to all animations except for the Jump animation): postfix the Animation clip name with "-loop". Godot will recognize this on import and will automatically set the animation to be looped.
   - Rename the just imported Slot name to the exact Slot name given for the first imported Mixamo file
   - Select the Armature collecting all animations
   - In the Action Editor's headline, from the Clip Dropdown, select the to-be-imported clip that was just renamed
