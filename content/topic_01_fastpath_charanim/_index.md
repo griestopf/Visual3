@@ -8,22 +8,22 @@ weight = 10
 
 - Within this lesson you will learn 
   - how to apply ready-made body animations from Mixamo to a self-created character
-  - how to assemble a set of Mixamo animations within blender
+  - how to assemble a set of Mixamo animations within Blender
   - how to export/import a character with a set of animation loops to Godot
-  - how to setup a simple playground environment for your character in Godot
-  - how to playback/blend the animation tracks depending on the user input to control the character
+  - how to set up a simple playground environment for your character in Godot
+  - how to play back/blend the animation tracks depending on the user input to control the character
 
 
 
 ## Assemble a set of Mixamo animations within blender
 
-- Export your single-object-character as FBX (make sure no other objects such as camera, lights, etc. are exported) and upload it to Mixamo. Use Mixamo's Autorigging feature to have it create a skeleton and bone weights for you
+- Export your single-object character as FBX (make sure no other objects such as camera, lights, etc. are exported) and upload it to Mixamo. Use Mixamo's auto-rigging feature to have it create a skeleton and bone weights for you
 
   Mixamo only supports FBX (various dialects) and Collada (DAE). Use FBX! Collada Export will look ugly in Blender - at least for the 3D Model (Skin).
 
   In Mixamo you can download various animations with the same 3D character - each as a single file. In Blender you want to have all animations either so called "Actions" or as individual NLA tracks on the same Character (Armature):
 
-- Select various animations for your character. Download all FBX files with Skin, at 30FPS and without kexframe reduction. Choose animations for the following movements:
+- Select various animations for your character. Download all FBX files with Skin, at 30FPS and without keyframe reduction. Choose animations for the following movements:
   - Idle
   - Walk/Run
   - Jump
@@ -33,14 +33,14 @@ weight = 10
 
 ### Combine Animations as Actions Tracks
 
-- Import the first mixamo file
+- Import the first Mixamo file
 - In the Dope Sheet Editor, select "Action Editor"
 - Rename Action and Slot at the Action Editor's headline to meaningful names. Remember the Slot name
-- For each remaining mixamo file
-  - Import the next mixamo file - the same model is now twice in the scene. Each model with its own animation
+- For each remaining Mixamo file
+  - Import the next Mixamo file - the same model is now twice in the scene. Each model with its own animation
   - Select the Armature that was just imported
-  - Rename the just imported Animation clip (can be done in the Action Editor's headline or in the Outliner). If the animation should be looped (applys to all animations except for the Jump animation): postfix the Animation clip name with "-loop". Godot will recognize this on import and will automatically set the animation to be looped.
-  - Rename the just imported Slot name to the exact Slot name given for the first imported mixamo file
+  - Rename the just imported Animation clip (can be done in the Action Editor's headline or in the Outliner). If the animation should be looped (applies to all animations except for the Jump animation): prefix the Animation clip name with "-loop". Godot will recognize this on import and will automatically set the animation to be looped.
+  - Rename the just imported Slot name to the exact Slot name given for the first imported Mixamo file
   - Select the Armature collecting all animations
   - In the Action Editor's headline, from the Clip Dropdown, select the to-be-imported clip that was just renamed
   - Delete the imported Armature and Character Geometry
@@ -88,7 +88,7 @@ Activating the Godot Editor with the open project will make Godot import the .bl
 
 - Add a "CharacterBody3D" node to your playground scene. Rename the node to "Player"
 
-- Drag the ".blend" file as a child into the CharacterBody3D named Player. The Character in its T-Pose should appear 
+- Drag the ".blend" file as a child into the CharacterBody3D named Player. The Character in its T-pose should appear
 
 - Right-Click on the object representing the blend file in the scene tree and activate "Editable Children"
 
@@ -236,8 +236,8 @@ func _physics_process(delta):
 
 ## Assignment
 
-- Prepare your character from Visual II or create a new one. Make sure it is a Biped in T-Pos. Ideally made out of a single mesh using only standard materials (may include textures and normal maps)
-  - If your existing Visual II char is not suited, create a simple "Cube Man" character using Box modeling
+- Prepare your character from Visual II or create a new one. Make sure it is a Biped in T-pose. Ideally made out of a single mesh using only standard materials (may include textures and normal maps)
+  - If your existing Visual II char is not suited, create a simple "Cube Man" character using box modeling
 
 - Upload your character to Mixamo, select and download the various movement animations (idle, walk, jump, left- and right-strafe)
 

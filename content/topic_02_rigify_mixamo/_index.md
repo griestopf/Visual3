@@ -8,7 +8,7 @@ weight = 20
 
 With Mixamo's pre-defined animations you can quickly setup an animated character using Blender, stack all the desired animations downloaded from Mixamo into Blender animation Actions and export the character with all animation tracks (or just use it) in Godot.
 
-On the other hand you can use Blender's Rigify Add-On to create an decently detailed rig allowing you to comfortably hand-craft custom animations. Also these type of animations can be easily exported to Godot using Blender's glTF export setting "Armature / Export Defomration Bones Only" (or Godot's .blend-file import setting "Blender /Meshes / Export Bones Deforming Meshes Only" setting, when directly using .blend files as Godot assets).
+On the other hand you can use Blender's Rigify Add-On to create an decently detailed rig allowing you to comfortably hand-craft custom animations. Also these type of animations can be easily exported to Godot using Blender's glTF export setting "Armature / Export Deformation Bones Only" (or Godot's .blend-file import setting "Blender /Meshes / Export Bones Deforming Meshes Only" setting, when directly using .blend files as Godot assets).
 
 A frequently asked question is how to combine these two worlds: 
  - Use Mixamo and Rigify animation Actions on the same character and export that to Godot, 
@@ -33,7 +33,7 @@ This tutorial describes how to do that
 
 ![Load Model](01_LoadCharacterModel-1.png)
 
-- Load the T-Posed character model into Blender
+- Load the T-posed character model into Blender
 
 ### 02 Add Rifify Metarig
 
