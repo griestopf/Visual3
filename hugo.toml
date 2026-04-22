@@ -12,7 +12,9 @@ theme = 'hugo-theme-relearn'
     { identifier = "relearn-bright", name = "Colors: Bright" }
   ]
 
-  disableLandingPageButton = true
+externalLinkTarget='_blank'
+disableLandingPageButton = true
+math= true
 
 [outputs]
   home = ['html', 'rss', 'print', 'search']
