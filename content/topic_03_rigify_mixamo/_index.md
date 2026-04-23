@@ -1,7 +1,7 @@
 +++
-title = 'Combining Blender-Rigify with Mixamo and Godot'
+title = 'Mixamo and Rigify combined into Godot'
 draft = false
-weight = 20 
+weight = 30 
 +++
 
 ## Contents

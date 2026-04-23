@@ -16,7 +16,7 @@ weight = 0
 | Wed 22 Apr | Rigify, Walk-Cycle in 3D, Mixamo->Rigify->Godot         |  9:45-13:00; 14:00-16:00  |
 | Thu 23 Apr | Build your 3D Walkcycle by hand                         | --                        |
 | Fri 24 Apr | Integrate your Walkcycle into Godot                     | 9:45-13:00                |
-| Mon 27 Apr | Guerilla Guide to Facial Animation                      | 12:00-15:00               |
+| Mon 27 Apr | Guerilla Guide to Facial Animation                      | 12:30-15:30               |
 | Tue 28 Apr | Complete your Facial Animation/Walkcycle/Game Character | --                        |
 | Wed 29 Apr | Review                                                  | 9:45 - 12:00              |
 

@@ -1,7 +1,7 @@
 +++
-title = 'Fast Path to Char Animation from Mixamo via Blender to Godot'
+title = 'Mixamo to Godot via Blender'
 draft = false
-weight = 10 
+weight = 20 
 +++
 
 ## Contents
